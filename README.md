@@ -133,6 +133,19 @@ It covers the social-video data infrastructure, the native streaming autoregress
 
 > This repository hosts the technical report and project links only. It does **not** contain model weights or source code. For demos and the latest updates, please visit **[mainecoon.tech](https://mainecoon.tech/)**.
 
+## Acknowledgements
+
+MaineCoon stands on the shoulders of the open-source community. We are especially grateful to:
+
+- **🎬 LTX-2.3 & the LTX series — [Lightricks](https://github.com/Lightricks).** MaineCoon's audio-visual backbone builds on the excellent open **LTX-2.3** model. Huge credit to the LTX team and the broader LTX-Video series.
+  - **LTX-2** (incl. LTX-2.3): https://github.com/Lightricks/LTX-2
+  - **LTX-Video**: https://github.com/Lightricks/LTX-Video
+- **⚡ DMD series & the distribution-matching distillation community.** Our reinforced online-policy distillation (ROPD) builds on the **Distribution Matching Distillation (DMD / DMD2)** line of work and the wider few-step / real-time distillation community.
+  - **DMD2**: https://github.com/tianweiy/DMD2
+  - **DMD** (project page): https://tianweiy.github.io/dmd/
+
+We thank these projects and their communities for advancing real-time, few-step, and streaming video generation.
+
 ## Citation
 
 If you find MaineCoon useful in your research, please consider citing:
