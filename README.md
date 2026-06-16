@@ -1,36 +1,9 @@
-
-
-
-
-https://github.com/user-attachments/assets/fa68c29c-084d-4552-8cb4-16425681cecd
-
-
-
-https://github.com/user-attachments/assets/c6a3bd33-b305-494b-a9da-59635d4b71c1
-
-
-
-https://github.com/user-attachments/assets/6f141158-e59b-4d2c-9900-bae1835876bd
-
-
-
-https://github.com/user-attachments/assets/20c67495-4566-498e-b8eb-b13aef314587
-
-
-
-https://github.com/user-attachments/assets/2e0af999-f536-4b45-903f-b12293eaeb49
-
-
-
-https://github.com/user-attachments/assets/15c1fe7a-b790-48bb-b162-1436fadf2541
-
-
-
 # 🐱 MaineCoon
 
 ### Pursuing a Real-Time Audio-Visual Social World Model
 
 [![Project Website](https://img.shields.io/badge/🌐_Website-mainecoon.tech-2563EB)](https://mainecoon.tech/)
+[![Experience](https://img.shields.io/badge/🕹️_Experience-Try_it_live-10B981)](https://mainecoon.tech/experience-platform)
 [![Blog](https://img.shields.io/badge/📝_Blog-mainecoon.tech/blogs-2563EB)](https://mainecoon.tech/blogs)
 [![Technical Report](https://img.shields.io/badge/📄_Technical_Report-PDF-B91C1C)](./MaineCoon_Technical_Report.pdf)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-catnip--ai--tech-FFD21E)](https://huggingface.co/catnip-ai-tech/MaineCoon)
@@ -39,6 +12,8 @@ https://github.com/user-attachments/assets/15c1fe7a-b790-48bb-b162-1436fadf2541
 > **MaineCoon** is the first real-time audio-visual autoregressive model, a 22B-parameter generative core that streams synchronized audio and video chunk-by-chunk on a **single GPU**, with sub-second interaction and a record-breaking frame rate of **up to 47.5 FPS**. It is our first step toward **social world models** — generative systems that actively observe users, internally simulate social dynamics, and react to people in real time.
 
 🔗 **Official website & demos:** **[https://mainecoon.tech/](https://mainecoon.tech/)**
+
+🕹️ **Experience platform (try it live):** **[https://mainecoon.tech/experience-platform](https://mainecoon.tech/experience-platform)**
 
 📝 **Blog:** **[https://mainecoon.tech/blogs](https://mainecoon.tech/blogs)**
 
@@ -70,42 +45,42 @@ A few hand-picked MaineCoon generations, generated chunk-by-chunk under the stre
 <tr>
 <td width="50%" align="center">
 
-https://github.com/user-attachments/assets/88123e96-006a-4899-98a8-c3eb99bc56dd
+https://github.com/user-attachments/assets/fa68c29c-084d-4552-8cb4-16425681cecd
 
 </td>
 <td width="50%" align="center">
 
-https://github.com/user-attachments/assets/c5dba75a-1bba-4cac-83c3-59515fad6a8c
-
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-
-https://github.com/user-attachments/assets/f1299019-e102-4218-8eff-fd50136abb29
-
-</td>
-<td width="50%" align="center">
-
-https://github.com/user-attachments/assets/76ac6ba0-6218-4d01-aaa4-aece40a438b0
+https://github.com/user-attachments/assets/c6a3bd33-b305-494b-a9da-59635d4b71c1
 
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 
-https://github.com/user-attachments/assets/eeda6e86-d488-4df9-919a-5166505c0e1b
+https://github.com/user-attachments/assets/6f141158-e59b-4d2c-9900-bae1835876bd
 
 </td>
 <td width="50%" align="center">
 
-https://github.com/user-attachments/assets/393bb951-59d5-455a-919e-f0880e8bb2e1
+https://github.com/user-attachments/assets/20c67495-4566-498e-b8eb-b13aef314587
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+
+https://github.com/user-attachments/assets/2e0af999-f536-4b45-903f-b12293eaeb49
+
+</td>
+<td width="50%" align="center">
+
+https://github.com/user-attachments/assets/15c1fe7a-b790-48bb-b162-1436fadf2541
 
 </td>
 </tr>
 </table>
 
-> 🎬 **Minute-scale, long-form demos** are best viewed on our **[blog](https://mainecoon.tech/blogs)**. &nbsp; 🕹️ **Try MaineCoon live** at the **[experience portal](https://mainecoon.tech/experience)**.
+> 🎬 **Minute-scale, long-form demos** are best viewed on our **[blog](https://mainecoon.tech/blogs)**. &nbsp; 🕹️ **Try MaineCoon live** at the **[experience platform](https://mainecoon.tech/experience-platform)**.
 
 ## Benchmark — SocialVideo-Bench
 
@@ -154,6 +129,7 @@ It covers the social-video data infrastructure, the native streaming autoregress
 ## Links
 
 - **Website & live demos:** https://mainecoon.tech/
+- **Experience platform (try it live):** https://mainecoon.tech/experience-platform
 - **Blog:** https://mainecoon.tech/blogs
 - **Hugging Face:** https://huggingface.co/catnip-ai-tech/MaineCoon
 - **GitHub:** https://github.com/catnip-ai-tech/MaineCoon
