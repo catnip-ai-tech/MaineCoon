@@ -34,6 +34,57 @@ We define the position of **social world models** and build **MaineCoon** as a p
 - **🧠 Agentic streaming inference.** An agentic inference framework that supports **thousand-second-scale** generation while mitigating drift through agentic cache management, chunk commitment, long-context rollout, and prompt planning.
 - **📊 SocialVideo-Bench.** A new benchmark focused on audio-visual social-video generation, with 9 representative metrics covering visual quality, motion, audio quality, audio-visual alignment, and social-video harmony. MaineCoon outperforms 7 representative open audio-visual models while achieving the fastest generation speed — a new state of the art for real-time social video generation.
 
+## Showcase
+
+A few hand-picked MaineCoon generations across social-video domains. **Click any thumbnail to play the clip** (audio-visual, generated chunk-by-chunk under the streaming regime).
+
+<table>
+  <tr>
+    <td align="center"><a href="showcase/meme_avocado_dramatic.mp4"><img src="showcase/meme_avocado_dramatic.jpg" width="170"></a><br><sub>Meme · object drama</sub></td>
+    <td align="center"><a href="showcase/meme_cat_mirror_selfcare.mp4"><img src="showcase/meme_cat_mirror_selfcare.jpg" width="170"></a><br><sub>Meme · cat self-care</sub></td>
+    <td align="center"><a href="showcase/tt_cooking_03.mp4"><img src="showcase/tt_cooking_03.jpg" width="170"></a><br><sub>TikTok · cooking</sub></td>
+    <td align="center"><a href="showcase/tt_fitness_08.mp4"><img src="showcase/tt_fitness_08.jpg" width="170"></a><br><sub>TikTok · fitness</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="showcase/tt_haul_07.mp4"><img src="showcase/tt_haul_07.jpg" width="170"></a><br><sub>TikTok · haul</sub></td>
+    <td align="center"><a href="showcase/tt_storytime_06.mp4"><img src="showcase/tt_storytime_06.jpg" width="170"></a><br><sub>TikTok · storytime</sub></td>
+    <td align="center"><a href="showcase/cin_noir_05.mp4"><img src="showcase/cin_noir_05.jpg" width="170"></a><br><sub>Cinematic · noir</sub></td>
+    <td align="center"><a href="showcase/sing_day_02.mp4"><img src="showcase/sing_day_02.jpg" width="170"></a><br><sub>Singing</sub></td>
+  </tr>
+</table>
+
+> More demos and live, interactive sessions are available at **[mainecoon.tech](https://mainecoon.tech/)**.
+
+## Benchmark — SocialVideo-Bench
+
+**Table 1. Domain composition of SocialVideo-Bench.** 700 samples evenly distributed across seven representative social-video domains, obtained by content clustering of social videos.
+
+| Domain | Samples | Representative Content |
+|---|:---:|---|
+| Dense Speech | 100 | Continuous speech, narration, explanation, and monologue |
+| Two-Person Interaction | 100 | Conversations, interviews, debates, and interpersonal reactions |
+| Music and Vocal | 100 | Singing, vocal performance, and music-centered human activities |
+| Emotional Performance | 100 | Expressive speech, facial emotion, and emotion-driven behavior |
+| Dance | 100 | Solo or multi-person dance with prominent rhythmic body motion |
+| Creative Stress Test | 100 | Creative combinations of human actions, audio events, and complex scenes |
+| Social Memes | 100 | Social content involving humor, reactions, and narrative reversals |
+| **Total** | **700** | Seven balanced social-video domains |
+
+**Table 2. Main quantitative results on SocialVideo-Bench.** MaineCoon achieves significantly better average scores than popular baselines. The two most comprehensive metrics — Audio-Visual Harmony (AVH) and Joint Audio-Visual Integrated Score (JAVIS) — consistently support MaineCoon's advantage over both streaming and bidirectional models.
+
+| Type | Model | Vis↑ | Mot↑ | Aud↑ | IB-TV↑ | IB-TA↑ | IB-AV↑ | AV-Al↑ | AVH↑ | JAVIS↑ | **Average↑** |
+|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Bidirectional T2AV | JavisDiT++ | 4.39 | **2.22** | 4.06 | 0.134 | 0.070 | 0.151 | 0.312 | 0.136 | 0.112 | 0.711 |
+| Bidirectional T2AV | Ovi | 4.44 | 1.89 | 3.76 | _0.138_ | 0.079 | 0.191 | **0.412** | 0.188 | 0.162 | 0.779 |
+| Bidirectional T2AV | JoyAI-Echo | 4.61 | 1.17 | 3.47 | **0.147** | 0.088 | 0.226 | 0.319 | 0.196 | 0.173 | 0.749 |
+| Bidirectional T2AV | MoVA | _4.66_ | 1.68 | 3.69 | 0.133 | 0.105 | 0.258 | _0.359_ | 0.245 | 0.216 | 0.842 |
+| Bidirectional T2AV | LTX-2.3 | 4.10 | 0.99 | 4.06 | 0.132 | 0.111 | 0.311 | 0.334 | 0.287 | _0.247_ | 0.848 |
+| Streaming TA2V | LiveAvatar | 4.60 | 1.46 | _4.13_ | 0.131 | 0.120 | _0.316_ | 0.326 | _0.291_ | 0.246 | 0.892 |
+| Streaming TA2V | SoulX-FlashTalk | 4.65 | _1.99_ | 4.07 | 0.128 | _0.120_ | 0.307 | 0.279 | 0.283 | 0.238 | _0.895_ |
+| **Streaming T2AV** | **MaineCoon (Ours)** | **4.71** | 1.62 | **4.35** | 0.127 | **0.130** | **0.318** | 0.334 | **0.308** | **0.272** | **0.934** |
+
+<sub>**bold** = best, _italic_ = second best. Metrics — Vis: visual quality · Mot: motion · Aud: audio quality · IB-TV / IB-TA / IB-AV: ImageBind Text–Video / Text–Audio / Audio–Video alignment · AV-Al: audio–visual alignment · AVH: Audio-Visual Harmony · JAVIS: Joint Audio-Visual Integrated Score. See the technical report for the full benchmark, metric definitions, and a latency/model-size comparison.</sub>
+
 ## Technical Report
 
 The full technical report is included in this repository:
