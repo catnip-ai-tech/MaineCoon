@@ -57,19 +57,6 @@ A few hand-picked MaineCoon generations across social-video domains. **Click any
 
 ## Benchmark — SocialVideo-Bench
 
-**Table 1. Domain composition of SocialVideo-Bench.** 700 samples evenly distributed across seven representative social-video domains, obtained by content clustering of social videos.
-
-| Domain | Samples | Representative Content |
-|---|:---:|---|
-| Dense Speech | 100 | Continuous speech, narration, explanation, and monologue |
-| Two-Person Interaction | 100 | Conversations, interviews, debates, and interpersonal reactions |
-| Music and Vocal | 100 | Singing, vocal performance, and music-centered human activities |
-| Emotional Performance | 100 | Expressive speech, facial emotion, and emotion-driven behavior |
-| Dance | 100 | Solo or multi-person dance with prominent rhythmic body motion |
-| Creative Stress Test | 100 | Creative combinations of human actions, audio events, and complex scenes |
-| Social Memes | 100 | Social content involving humor, reactions, and narrative reversals |
-| **Total** | **700** | Seven balanced social-video domains |
-
 **Table 2. Main quantitative results on SocialVideo-Bench.** MaineCoon achieves significantly better average scores than popular baselines. The two most comprehensive metrics — Audio-Visual Harmony (AVH) and Joint Audio-Visual Integrated Score (JAVIS) — consistently support MaineCoon's advantage over both streaming and bidirectional models.
 
 | Type | Model | Vis↑ | Mot↑ | Aud↑ | IB-TV↑ | IB-TA↑ | IB-AV↑ | AV-Al↑ | AVH↑ | JAVIS↑ | **Average↑** |
@@ -83,7 +70,24 @@ A few hand-picked MaineCoon generations across social-video domains. **Click any
 | Streaming TA2V | SoulX-FlashTalk | 4.65 | _1.99_ | 4.07 | 0.128 | _0.120_ | 0.307 | 0.279 | 0.283 | 0.238 | _0.895_ |
 | **Streaming T2AV** | **MaineCoon (Ours)** | **4.71** | 1.62 | **4.35** | 0.127 | **0.130** | **0.318** | 0.334 | **0.308** | **0.272** | **0.934** |
 
-<sub>**bold** = best, _italic_ = second best. Metrics — Vis: visual quality · Mot: motion · Aud: audio quality · IB-TV / IB-TA / IB-AV: ImageBind Text–Video / Text–Audio / Audio–Video alignment · AV-Al: audio–visual alignment · AVH: Audio-Visual Harmony · JAVIS: Joint Audio-Visual Integrated Score. See the technical report for the full benchmark, metric definitions, and a latency/model-size comparison.</sub>
+<sub>**bold** = best, _italic_ = second best. Metrics — Vis: visual quality · Mot: motion · Aud: audio quality · IB-TV / IB-TA / IB-AV: ImageBind Text–Video / Text–Audio / Audio–Video alignment · AV-Al: audio–visual alignment · AVH: Audio-Visual Harmony · JAVIS: Joint Audio-Visual Integrated Score. See the technical report for the full benchmark and metric definitions.</sub>
+
+**Table 3. Latency and model size comparison.** Sampling throughput (FPS) is measured for 480P 20-second video generation on a single H100 GPU. Despite having the largest model size, MaineCoon is up to **7× faster** than other streaming audio-visual generators — and even faster than a 1.3B streaming video model.
+
+| Type | Model | Parameters | FPS↑ |
+|---|---|:---:|:---:|
+| Bidirectional T2AV | JavisDiT++ | 1.8B | 0.87 |
+| Bidirectional T2AV | Ovi | 11B | 0.58 |
+| Bidirectional T2AV | JoyAI-Echo | 23B | 18.0 |
+| Bidirectional T2AV | MoVA | 32B | 0.26 |
+| Bidirectional T2AV | LTX-2.3 | 22B | 1.40 |
+| Bidirectional T2AV | LTX-2.3-Distilled | 22B | 20.7 |
+| Streaming T2V | Causal-Forcing | 1.3B | 19.1 |
+| Streaming T2V | Helios-Distilled | 14B | 18.2 |
+| Streaming T2V | Krea | 14B | 6.1 |
+| Streaming TA2V | LiveAvatar | 14B | 6.7 |
+| Streaming TA2V | SoulX-FlashTalk | 14B | 6.6 |
+| **Streaming T2AV** | **MaineCoon (Ours)** | 22B | **47.5** |
 
 ## Technical Report
 
