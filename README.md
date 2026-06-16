@@ -36,20 +36,20 @@ We define the position of **social world models** and build **MaineCoon** as a p
 
 ## Showcase
 
-A few hand-picked MaineCoon generations, generated chunk-by-chunk under the streaming regime. Press play on any clip below.
+A few hand-picked MaineCoon generations, generated chunk-by-chunk under the streaming regime. **Each preview loops automatically — click any clip to open it with audio in the player.**
 
 <table>
   <tr>
-    <td><video src="showcase/meme_avocado_dramatic.mp4" poster="showcase/meme_avocado_dramatic.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
-    <td><video src="showcase/meme_cat_mirror_selfcare.mp4" poster="showcase/meme_cat_mirror_selfcare.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
-    <td><video src="showcase/tt_cooking_03.mp4" poster="showcase/tt_cooking_03.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
-    <td><video src="showcase/tt_fitness_08.mp4" poster="showcase/tt_fitness_08.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
+    <td><a href="showcase/meme_avocado_dramatic.mp4"><img src="showcase/meme_avocado_dramatic.webp" width="200"></a></td>
+    <td><a href="showcase/meme_cat_mirror_selfcare.mp4"><img src="showcase/meme_cat_mirror_selfcare.webp" width="200"></a></td>
+    <td><a href="showcase/tt_cooking_03.mp4"><img src="showcase/tt_cooking_03.webp" width="200"></a></td>
+    <td><a href="showcase/tt_fitness_08.mp4"><img src="showcase/tt_fitness_08.webp" width="200"></a></td>
   </tr>
   <tr>
-    <td><video src="showcase/tt_haul_07.mp4" poster="showcase/tt_haul_07.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
-    <td><video src="showcase/tt_storytime_06.mp4" poster="showcase/tt_storytime_06.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
-    <td><video src="showcase/cin_noir_05.mp4" poster="showcase/cin_noir_05.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
-    <td><video src="showcase/sing_day_02.mp4" poster="showcase/sing_day_02.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
+    <td><a href="showcase/tt_haul_07.mp4"><img src="showcase/tt_haul_07.webp" width="200"></a></td>
+    <td><a href="showcase/tt_storytime_06.mp4"><img src="showcase/tt_storytime_06.webp" width="200"></a></td>
+    <td><a href="showcase/cin_noir_05.mp4"><img src="showcase/cin_noir_05.webp" width="200"></a></td>
+    <td><a href="showcase/sing_day_02.mp4"><img src="showcase/sing_day_02.webp" width="200"></a></td>
   </tr>
 </table>
 
@@ -127,12 +127,3 @@ If you find MaineCoon useful in your research, please consider citing:
 MaineCoon is developed by the **Catnip AI Team**.
 Learn more at **[https://mainecoon.tech/](https://mainecoon.tech/)**.
 
-<!-- VIDEOTEST_START -->
-A <video src="https://github.com/catnip-ai-tech/MaineCoon/releases/download/showcase/cin_noir_05.mp4" controls></video>
-B <video src="https://user-images.githubusercontent.com/0/x.mp4" controls></video>
-C <video src="https://github.com/user-attachments/assets/00000000-0000-0000-0000-000000000000" controls></video>
-
-https://github.com/user-attachments/assets/00000000-0000-0000-0000-000000000000
-
-https://github.com/catnip-ai-tech/MaineCoon/releases/download/showcase/cin_noir_05.mp4
-<!-- VIDEOTEST_END -->
