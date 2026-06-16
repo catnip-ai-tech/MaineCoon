@@ -1,43 +1,3 @@
-<img width="240" height="416" alt="tt_storytime_06" src="https://github.com/user-attachments/assets/dafd3d78-e0a0-4326-a96f-3d9d7cfe2122" />
-
-
-https://github.com/user-attachments/assets/dec6b4e0-8b75-4963-879b-db4d06c2614a
-
-<img width="240" height="416" alt="tt_haul_07" src="https://github.com/user-attachments/assets/013d8295-60f3-405e-bc56-4ecc40e89e78" />
-
-
-https://github.com/user-attachments/assets/76ac6ba0-6218-4d01-aaa4-aece40a438b0
-
-<img width="240" height="416" alt="tt_fitness_08" src="https://github.com/user-attachments/assets/7053fc7a-8046-4bdd-9c1d-cd786a61d966" />
-
-
-https://github.com/user-attachments/assets/f1299019-e102-4218-8eff-fd50136abb29
-
-<img width="240" height="416" alt="tt_cooking_03" src="https://github.com/user-attachments/assets/a8929982-a8af-4153-aa08-a6ec58826c6c" />
-
-
-https://github.com/user-attachments/assets/c5dba75a-1bba-4cac-83c3-59515fad6a8c
-
-<img width="240" height="416" alt="sing_day_02" src="https://github.com/user-attachments/assets/7f6b5307-d98f-4145-a7bf-dde91f5ab7f6" />
-
-
-https://github.com/user-attachments/assets/393bb951-59d5-455a-919e-f0880e8bb2e1
-
-<img width="240" height="416" alt="meme_cat_mirror_selfcare" src="https://github.com/user-attachments/assets/70cfad5f-86e4-4074-9b5d-ff77c9c51007" />
-
-
-https://github.com/user-attachments/assets/88123e96-006a-4899-98a8-c3eb99bc56dd
-
-<img width="240" height="416" alt="meme_avocado_dramatic" src="https://github.com/user-attachments/assets/cb007793-d81b-468c-9dcf-ad056a24a059" />
-
-
-https://github.com/user-attachments/assets/25e40042-4526-4012-bec7-7eb5491a33f6
-
-<img width="240" height="416" alt="cin_noir_05" src="https://github.com/user-attachments/assets/e8155374-cd45-4e18-a8c6-837a825c9556" />
-
-
-https://github.com/user-attachments/assets/eeda6e86-d488-4df9-919a-5166505c0e1b
-
 # 🐱 MaineCoon
 
 ### Pursuing a Real-Time Audio-Visual Social World Model
@@ -76,21 +36,57 @@ We define the position of **social world models** and build **MaineCoon** as a p
 
 ## Showcase
 
-A few hand-picked MaineCoon generations, generated chunk-by-chunk under the streaming regime. **Each preview loops automatically — click any clip to open it with audio in the player.**
+A few hand-picked MaineCoon generations, generated chunk-by-chunk under the streaming regime — audio-visual, with sound.
 
 <table>
-  <tr>
-    <td><a href="showcase/meme_avocado_dramatic.mp4"><img src="showcase/meme_avocado_dramatic.webp" width="200"></a></td>
-    <td><a href="showcase/meme_cat_mirror_selfcare.mp4"><img src="showcase/meme_cat_mirror_selfcare.webp" width="200"></a></td>
-    <td><a href="showcase/tt_cooking_03.mp4"><img src="showcase/tt_cooking_03.webp" width="200"></a></td>
-    <td><a href="showcase/tt_fitness_08.mp4"><img src="showcase/tt_fitness_08.webp" width="200"></a></td>
-  </tr>
-  <tr>
-    <td><a href="showcase/tt_haul_07.mp4"><img src="showcase/tt_haul_07.webp" width="200"></a></td>
-    <td><a href="showcase/tt_storytime_06.mp4"><img src="showcase/tt_storytime_06.webp" width="200"></a></td>
-    <td><a href="showcase/cin_noir_05.mp4"><img src="showcase/cin_noir_05.webp" width="200"></a></td>
-    <td><a href="showcase/sing_day_02.mp4"><img src="showcase/sing_day_02.webp" width="200"></a></td>
-  </tr>
+<tr>
+<td>
+
+https://github.com/user-attachments/assets/25e40042-4526-4012-bec7-7eb5491a33f6
+
+</td>
+<td>
+
+https://github.com/user-attachments/assets/88123e96-006a-4899-98a8-c3eb99bc56dd
+
+</td>
+</tr>
+<tr>
+<td>
+
+https://github.com/user-attachments/assets/c5dba75a-1bba-4cac-83c3-59515fad6a8c
+
+</td>
+<td>
+
+https://github.com/user-attachments/assets/f1299019-e102-4218-8eff-fd50136abb29
+
+</td>
+</tr>
+<tr>
+<td>
+
+https://github.com/user-attachments/assets/76ac6ba0-6218-4d01-aaa4-aece40a438b0
+
+</td>
+<td>
+
+https://github.com/user-attachments/assets/dec6b4e0-8b75-4963-879b-db4d06c2614a
+
+</td>
+</tr>
+<tr>
+<td>
+
+https://github.com/user-attachments/assets/eeda6e86-d488-4df9-919a-5166505c0e1b
+
+</td>
+<td>
+
+https://github.com/user-attachments/assets/393bb951-59d5-455a-919e-f0880e8bb2e1
+
+</td>
+</tr>
 </table>
 
 > More demos and live, interactive sessions are available at **[mainecoon.tech](https://mainecoon.tech/)**.
