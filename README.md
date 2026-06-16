@@ -36,20 +36,20 @@ We define the position of **social world models** and build **MaineCoon** as a p
 
 ## Showcase
 
-A few hand-picked MaineCoon generations across social-video domains. **Click any thumbnail to play the clip** (audio-visual, generated chunk-by-chunk under the streaming regime).
+A few hand-picked MaineCoon generations, generated chunk-by-chunk under the streaming regime. Press play on any clip below.
 
 <table>
   <tr>
-    <td align="center"><a href="showcase/meme_avocado_dramatic.mp4"><img src="showcase/meme_avocado_dramatic.jpg" width="170"></a><br><sub>Meme · object drama</sub></td>
-    <td align="center"><a href="showcase/meme_cat_mirror_selfcare.mp4"><img src="showcase/meme_cat_mirror_selfcare.jpg" width="170"></a><br><sub>Meme · cat self-care</sub></td>
-    <td align="center"><a href="showcase/tt_cooking_03.mp4"><img src="showcase/tt_cooking_03.jpg" width="170"></a><br><sub>TikTok · cooking</sub></td>
-    <td align="center"><a href="showcase/tt_fitness_08.mp4"><img src="showcase/tt_fitness_08.jpg" width="170"></a><br><sub>TikTok · fitness</sub></td>
+    <td><video src="showcase/meme_avocado_dramatic.mp4" poster="showcase/meme_avocado_dramatic.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
+    <td><video src="showcase/meme_cat_mirror_selfcare.mp4" poster="showcase/meme_cat_mirror_selfcare.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
+    <td><video src="showcase/tt_cooking_03.mp4" poster="showcase/tt_cooking_03.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
+    <td><video src="showcase/tt_fitness_08.mp4" poster="showcase/tt_fitness_08.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
   </tr>
   <tr>
-    <td align="center"><a href="showcase/tt_haul_07.mp4"><img src="showcase/tt_haul_07.jpg" width="170"></a><br><sub>TikTok · haul</sub></td>
-    <td align="center"><a href="showcase/tt_storytime_06.mp4"><img src="showcase/tt_storytime_06.jpg" width="170"></a><br><sub>TikTok · storytime</sub></td>
-    <td align="center"><a href="showcase/cin_noir_05.mp4"><img src="showcase/cin_noir_05.jpg" width="170"></a><br><sub>Cinematic · noir</sub></td>
-    <td align="center"><a href="showcase/sing_day_02.mp4"><img src="showcase/sing_day_02.jpg" width="170"></a><br><sub>Singing</sub></td>
+    <td><video src="showcase/tt_haul_07.mp4" poster="showcase/tt_haul_07.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
+    <td><video src="showcase/tt_storytime_06.mp4" poster="showcase/tt_storytime_06.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
+    <td><video src="showcase/cin_noir_05.mp4" poster="showcase/cin_noir_05.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
+    <td><video src="showcase/sing_day_02.mp4" poster="showcase/sing_day_02.jpg" width="200" controls muted loop preload="metadata" playsinline></video></td>
   </tr>
 </table>
 
