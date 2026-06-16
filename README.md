@@ -126,3 +126,13 @@ If you find MaineCoon useful in your research, please consider citing:
 
 MaineCoon is developed by the **Catnip AI Team**.
 Learn more at **[https://mainecoon.tech/](https://mainecoon.tech/)**.
+
+<!-- VIDEOTEST_START -->
+A <video src="https://github.com/catnip-ai-tech/MaineCoon/releases/download/showcase/cin_noir_05.mp4" controls></video>
+B <video src="https://user-images.githubusercontent.com/0/x.mp4" controls></video>
+C <video src="https://github.com/user-attachments/assets/00000000-0000-0000-0000-000000000000" controls></video>
+
+https://github.com/user-attachments/assets/00000000-0000-0000-0000-000000000000
+
+https://github.com/catnip-ai-tech/MaineCoon/releases/download/showcase/cin_noir_05.mp4
+<!-- VIDEOTEST_END -->
