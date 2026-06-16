@@ -1,27 +1,3 @@
-
-
-https://github.com/user-attachments/assets/c7b122c7-a747-492b-8b0b-73061cf3e8bc
-
-
-
-https://github.com/user-attachments/assets/04788259-7c0e-48c2-b543-1bf6c7794b63
-
-
-
-https://github.com/user-attachments/assets/758ee5b9-d812-4adf-9f06-210f5bcc19c8
-
-
-
-https://github.com/user-attachments/assets/12363249-ce66-414d-9f5e-bbaf4aa5f6e5
-
-
-
-https://github.com/user-attachments/assets/f4767442-4235-4169-8129-038966fa17af
-
-
-
-https://github.com/user-attachments/assets/921aad54-2040-4c4f-8320-20326e40fc68
-
 # 🐱 MaineCoon
 
 ### Pursuing a Real-Time Audio-Visual Social World Model
@@ -66,36 +42,36 @@ A few hand-picked MaineCoon generations, generated chunk-by-chunk under the stre
 <tr>
 <td width="50%" align="center">
 
-https://github.com/user-attachments/assets/fa68c29c-084d-4552-8cb4-16425681cecd
+https://github.com/user-attachments/assets/c7b122c7-a747-492b-8b0b-73061cf3e8bc
 
 </td>
 <td width="50%" align="center">
 
-https://github.com/user-attachments/assets/c6a3bd33-b305-494b-a9da-59635d4b71c1
-
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-
-https://github.com/user-attachments/assets/6f141158-e59b-4d2c-9900-bae1835876bd
-
-</td>
-<td width="50%" align="center">
-
-https://github.com/user-attachments/assets/20c67495-4566-498e-b8eb-b13aef314587
+https://github.com/user-attachments/assets/04788259-7c0e-48c2-b543-1bf6c7794b63
 
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 
-https://github.com/user-attachments/assets/2e0af999-f536-4b45-903f-b12293eaeb49
+https://github.com/user-attachments/assets/758ee5b9-d812-4adf-9f06-210f5bcc19c8
 
 </td>
 <td width="50%" align="center">
 
-https://github.com/user-attachments/assets/15c1fe7a-b790-48bb-b162-1436fadf2541
+https://github.com/user-attachments/assets/12363249-ce66-414d-9f5e-bbaf4aa5f6e5
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+
+https://github.com/user-attachments/assets/f4767442-4235-4169-8129-038966fa17af
+
+</td>
+<td width="50%" align="center">
+
+https://github.com/user-attachments/assets/921aad54-2040-4c4f-8320-20326e40fc68
 
 </td>
 </tr>
