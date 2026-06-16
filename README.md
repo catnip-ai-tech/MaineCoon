@@ -42,11 +42,6 @@ A few hand-picked MaineCoon generations, generated chunk-by-chunk under the stre
 <tr>
 <td>
 
-https://github.com/user-attachments/assets/25e40042-4526-4012-bec7-7eb5491a33f6
-
-</td>
-<td>
-
 https://github.com/user-attachments/assets/88123e96-006a-4899-98a8-c3eb99bc56dd
 
 </td>
@@ -65,11 +60,6 @@ https://github.com/user-attachments/assets/f1299019-e102-4218-8eff-fd50136abb29
 <td>
 
 https://github.com/user-attachments/assets/76ac6ba0-6218-4d01-aaa4-aece40a438b0
-
-</td>
-<td>
-
-https://github.com/user-attachments/assets/dec6b4e0-8b75-4963-879b-db4d06c2614a
 
 </td>
 <td>
