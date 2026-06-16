@@ -11,8 +11,11 @@
 > **MaineCoon** is the first real-time audio-visual autoregressive model, a 22B-parameter generative core that streams synchronized audio and video chunk-by-chunk on a **single GPU**, with sub-second interaction and a record-breaking frame rate of **up to 47.5 FPS**. It is our first step toward **social world models** — generative systems that actively observe users, internally simulate social dynamics, and react to people in real time.
 
 🔗 **Official website & demos:** **[https://mainecoon.tech/](https://mainecoon.tech/)**
+
 📝 **Blog:** **[https://mainecoon.tech/blogs](https://mainecoon.tech/blogs)**
+
 🤗 **Hugging Face:** **[catnip-ai-tech/MaineCoon](https://huggingface.co/catnip-ai-tech/MaineCoon)**
+
 📄 **Technical report:** **[MaineCoon_Technical_Report.pdf](./MaineCoon_Technical_Report.pdf)**
 
 ---
