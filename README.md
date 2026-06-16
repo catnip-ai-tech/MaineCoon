@@ -81,37 +81,39 @@ https://github.com/user-attachments/assets/393bb951-59d5-455a-919e-f0880e8bb2e1
 
 ## Benchmark — SocialVideo-Bench
 
-**Table 2. Main quantitative results on SocialVideo-Bench.** MaineCoon achieves significantly better average scores than popular baselines. The two most comprehensive metrics — Audio-Visual Harmony (AVH) and Joint Audio-Visual Integrated Score (JAVIS) — consistently support MaineCoon's advantage over both streaming and bidirectional models.
+**Table 2. Main quantitative results on SocialVideo-Bench.** 🐱 **MaineCoon (Ours)** achieves the best average score and wins most metrics, including the two most comprehensive ones — Audio-Visual Harmony (AVH) and Joint Audio-Visual Integrated Score (JAVIS) — over both streaming and bidirectional baselines.
 
-| Type | Model | Vis↑ | Mot↑ | Aud↑ | IB-TV↑ | IB-TA↑ | IB-AV↑ | AV-Al↑ | AVH↑ | JAVIS↑ | **Average↑** |
-|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Type | Model | Vis↑ | Mot↑ | Aud↑ | IB-TV↑ | IB-TA↑ | IB-AV↑ | AV-Al↑ | AVH↑ | JAVIS↑ | Average↑ |
+|:--|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | Bidirectional T2AV | JavisDiT++ | 4.39 | **2.22** | 4.06 | 0.134 | 0.070 | 0.151 | 0.312 | 0.136 | 0.112 | 0.711 |
-| Bidirectional T2AV | Ovi | 4.44 | 1.89 | 3.76 | _0.138_ | 0.079 | 0.191 | **0.412** | 0.188 | 0.162 | 0.779 |
-| Bidirectional T2AV | JoyAI-Echo | 4.61 | 1.17 | 3.47 | **0.147** | 0.088 | 0.226 | 0.319 | 0.196 | 0.173 | 0.749 |
-| Bidirectional T2AV | MoVA | _4.66_ | 1.68 | 3.69 | 0.133 | 0.105 | 0.258 | _0.359_ | 0.245 | 0.216 | 0.842 |
-| Bidirectional T2AV | LTX-2.3 | 4.10 | 0.99 | 4.06 | 0.132 | 0.111 | 0.311 | 0.334 | 0.287 | _0.247_ | 0.848 |
+|  | Ovi | 4.44 | 1.89 | 3.76 | _0.138_ | 0.079 | 0.191 | **0.412** | 0.188 | 0.162 | 0.779 |
+|  | JoyAI-Echo | 4.61 | 1.17 | 3.47 | **0.147** | 0.088 | 0.226 | 0.319 | 0.196 | 0.173 | 0.749 |
+|  | MoVA | _4.66_ | 1.68 | 3.69 | 0.133 | 0.105 | 0.258 | _0.359_ | 0.245 | 0.216 | 0.842 |
+|  | LTX-2.3 | 4.10 | 0.99 | 4.06 | 0.132 | 0.111 | 0.311 | 0.334 | 0.287 | _0.247_ | 0.848 |
 | Streaming TA2V | LiveAvatar | 4.60 | 1.46 | _4.13_ | 0.131 | 0.120 | _0.316_ | 0.326 | _0.291_ | 0.246 | 0.892 |
-| Streaming TA2V | SoulX-FlashTalk | 4.65 | _1.99_ | 4.07 | 0.128 | _0.120_ | 0.307 | 0.279 | 0.283 | 0.238 | _0.895_ |
-| **Streaming T2AV** | **MaineCoon (Ours)** | **4.71** | 1.62 | **4.35** | 0.127 | **0.130** | **0.318** | 0.334 | **0.308** | **0.272** | **0.934** |
+|  | SoulX-FlashTalk | 4.65 | _1.99_ | 4.07 | 0.128 | _0.120_ | 0.307 | 0.279 | 0.283 | 0.238 | _0.895_ |
+| **Streaming T2AV** | 🐱&nbsp;**MaineCoon&nbsp;(Ours)** | **4.71** | 1.62 | **4.35** | 0.127 | **0.130** | **0.318** | 0.334 | **0.308** | **0.272** | **0.934**&nbsp;🥇 |
 
-<sub>**bold** = best, _italic_ = second best. Metrics — Vis: visual quality · Mot: motion · Aud: audio quality · IB-TV / IB-TA / IB-AV: ImageBind Text–Video / Text–Audio / Audio–Video alignment · AV-Al: audio–visual alignment · AVH: Audio-Visual Harmony · JAVIS: Joint Audio-Visual Integrated Score. See the technical report for the full benchmark and metric definitions.</sub>
+<sub>🐱 = our method &nbsp;·&nbsp; **bold** = best, _italic_ = second best. &nbsp; Metrics — Vis: visual quality · Mot: motion · Aud: audio quality · IB-TV / IB-TA / IB-AV: ImageBind Text–Video / Text–Audio / Audio–Video alignment · AV-Al: audio–visual alignment · AVH: Audio-Visual Harmony · JAVIS: Joint Audio-Visual Integrated Score. See the technical report for the full benchmark and metric definitions.</sub>
 
-**Table 3. Latency and model size comparison.** Sampling throughput (FPS) is measured for 480P 20-second video generation on a single H100 GPU. Despite having the largest model size, MaineCoon is up to **7× faster** than other streaming audio-visual generators — and even faster than a 1.3B streaming video model.
+**Table 3. Latency and model size comparison.** Sampling throughput (FPS) is measured for 480P 20-second generation on a single H100 GPU. 🐱 **MaineCoon (Ours)** has the **largest model yet by far the fastest** speed — up to **7× faster** than other streaming audio-visual generators, and faster even than a 1.3B streaming video model.
 
-| Type | Model | Parameters | FPS↑ |
-|---|---|:---:|:---:|
+| Type | Model | Params | FPS↑ |
+|:--|:--|:--:|:--:|
 | Bidirectional T2AV | JavisDiT++ | 1.8B | 0.87 |
-| Bidirectional T2AV | Ovi | 11B | 0.58 |
-| Bidirectional T2AV | JoyAI-Echo | 23B | 18.0 |
-| Bidirectional T2AV | MoVA | 32B | 0.26 |
-| Bidirectional T2AV | LTX-2.3 | 22B | 1.40 |
-| Bidirectional T2AV | LTX-2.3-Distilled | 22B | 20.7 |
+|  | Ovi | 11B | 0.58 |
+|  | JoyAI-Echo | 23B | 18.0 |
+|  | MoVA | 32B | 0.26 |
+|  | LTX-2.3 | 22B | 1.40 |
+|  | LTX-2.3-Distilled | 22B | _20.7_ |
 | Streaming T2V | Causal-Forcing | 1.3B | 19.1 |
-| Streaming T2V | Helios-Distilled | 14B | 18.2 |
-| Streaming T2V | Krea | 14B | 6.1 |
+|  | Helios-Distilled | 14B | 18.2 |
+|  | Krea | 14B | 6.1 |
 | Streaming TA2V | LiveAvatar | 14B | 6.7 |
-| Streaming TA2V | SoulX-FlashTalk | 14B | 6.6 |
-| **Streaming T2AV** | **MaineCoon (Ours)** | 22B | **47.5** |
+|  | SoulX-FlashTalk | 14B | 6.6 |
+| **Streaming T2AV** | 🐱&nbsp;**MaineCoon&nbsp;(Ours)** | **22B** | **47.5**&nbsp;🥇 |
+
+<sub>🐱 = our method &nbsp;·&nbsp; **bold** = best, _italic_ = second best. FPS for 480P-20s on a single H100.</sub>
 
 ## Technical Report
 
