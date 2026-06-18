@@ -4,7 +4,7 @@
 
 [![Project Website](https://img.shields.io/badge/🌐_Website-mainecoon.tech-2563EB)](https://mainecoon.tech/)
 [![Blog](https://img.shields.io/badge/📝_Blog-mainecoon.tech/blogs-2563EB)](https://mainecoon.tech/blogs)
-[![Technical Report](https://img.shields.io/badge/📄_Technical_Report-PDF-B91C1C)](./MaineCoon_Technical_Report.pdf)
+[![arXiv](https://img.shields.io/badge/📄_arXiv-2606.17800-b31b1b)](https://arxiv.org/abs/2606.17800)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-catnip--ai--tech-FFD21E)](https://huggingface.co/catnip-ai-tech/MaineCoon)
 [![GitHub](https://img.shields.io/badge/💻_GitHub-catnip--ai--tech/MaineCoon-181717)](https://github.com/catnip-ai-tech/MaineCoon)
 
@@ -16,7 +16,7 @@
 
 🤗 **Hugging Face:** **[catnip-ai-tech/MaineCoon](https://huggingface.co/catnip-ai-tech/MaineCoon)**
 
-📄 **Technical report:** **[MaineCoon_Technical_Report.pdf](./MaineCoon_Technical_Report.pdf)**
+📄 **Paper (arXiv):** **[arxiv.org/abs/2606.17800](https://arxiv.org/abs/2606.17800)**
 
 ---
 
@@ -115,11 +115,11 @@ https://github.com/user-attachments/assets/921aad54-2040-4c4f-8320-20326e40fc68
 
 <sub>🐱 = our method &nbsp;·&nbsp; **bold** = best, _italic_ = second best. FPS for 480P-20s on a single H100.</sub>
 
-## Technical Report
+## Paper
 
-The full technical report is included in this repository:
+The full paper is available on arXiv:
 
-📄 **[MaineCoon_Technical_Report.pdf](./MaineCoon_Technical_Report.pdf)**
+📄 **[arXiv:2606.17800](https://arxiv.org/abs/2606.17800)** &nbsp;·&nbsp; a PDF copy is also included in this repo: [`MaineCoon_Technical_Report.pdf`](./MaineCoon_Technical_Report.pdf)
 
 It covers the social-video data infrastructure, the native streaming autoregressive training recipe, the agentic streaming inference framework, SocialVideo-Bench, and a position/outlook on social world models.
 
@@ -129,7 +129,7 @@ It covers the social-video data infrastructure, the native streaming autoregress
 - **Blog:** https://mainecoon.tech/blogs
 - **Hugging Face:** https://huggingface.co/catnip-ai-tech/MaineCoon
 - **GitHub:** https://github.com/catnip-ai-tech/MaineCoon
-- **Technical report (PDF):** [./MaineCoon_Technical_Report.pdf](./MaineCoon_Technical_Report.pdf)
+- **Paper (arXiv):** https://arxiv.org/abs/2606.17800
 
 > This repository hosts the technical report and project links only. It does **not** contain model weights or source code. For demos and the latest updates, please visit **[mainecoon.tech](https://mainecoon.tech/)**.
 
@@ -151,13 +151,12 @@ We thank these projects and their communities for advancing real-time, few-step,
 If you find MaineCoon useful in your research, please consider citing:
 
 ```bibtex
-@techreport{catnip2026mainecoon,
+@article{catnip2026mainecoon,
   title        = {MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model},
   author       = {Catnip AI Team},
   year         = {2026},
-  institution  = {Catnip AI},
-  type         = {Technical Report},
-  url          = {https://mainecoon.tech/}
+  journal      = {arXiv preprint arXiv:2606.17800},
+  url          = {https://arxiv.org/abs/2606.17800}
 }
 ```
 
