@@ -6,7 +6,6 @@
 [![Blog](https://img.shields.io/badge/📝_Blog-mainecoon.tech/blogs-2563EB)](https://mainecoon.tech/blogs)
 [![arXiv](https://img.shields.io/badge/📄_arXiv-2606.17800-b31b1b)](https://arxiv.org/abs/2606.17800)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-catnip--ai--tech-FFD21E)](https://huggingface.co/catnip-ai-tech/MaineCoon)
-[![GitHub](https://img.shields.io/badge/💻_GitHub-catnip--ai--tech/MaineCoon-181717)](https://github.com/catnip-ai-tech/MaineCoon)
 
 > **MaineCoon** is the first real-time audio-visual autoregressive model, a 22B-parameter generative core that streams synchronized audio and video chunk-by-chunk on a **single GPU**, with sub-second interaction and a record-breaking frame rate of **up to 47.5 FPS**. It is our first step toward **social world models** — generative systems that actively observe users, internally simulate social dynamics, and react to people in real time.
 
@@ -119,7 +118,7 @@ https://github.com/user-attachments/assets/921aad54-2040-4c4f-8320-20326e40fc68
 
 The full paper is available on arXiv:
 
-📄 **[arXiv:2606.17800](https://arxiv.org/abs/2606.17800)** &nbsp;·&nbsp; a PDF copy is also included in this repo: [`MaineCoon_Technical_Report.pdf`](./MaineCoon_Technical_Report.pdf)
+📄 **[arXiv:2606.17800](https://arxiv.org/abs/2606.17800)**
 
 It covers the social-video data infrastructure, the native streaming autoregressive training recipe, the agentic streaming inference framework, SocialVideo-Bench, and a position/outlook on social world models.
 
@@ -128,10 +127,9 @@ It covers the social-video data infrastructure, the native streaming autoregress
 - **Website & live demos:** https://mainecoon.tech/
 - **Blog:** https://mainecoon.tech/blogs
 - **Hugging Face:** https://huggingface.co/catnip-ai-tech/MaineCoon
-- **GitHub:** https://github.com/catnip-ai-tech/MaineCoon
 - **Paper (arXiv):** https://arxiv.org/abs/2606.17800
 
-> This repository hosts the technical report and project links only. It does **not** contain model weights or source code. For demos and the latest updates, please visit **[mainecoon.tech](https://mainecoon.tech/)**.
+> This repository hosts the project README, demo showcase, and links. It does **not** contain model weights or source code. For demos and the latest updates, please visit **[mainecoon.tech](https://mainecoon.tech/)**.
 
 ## Acknowledgements
 
