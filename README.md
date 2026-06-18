@@ -3,6 +3,7 @@
 ### Pursuing a Real-Time Audio-Visual Social World Model
 
 [![Project Website](https://img.shields.io/badge/🌐_Website-mainecoon.tech-2563EB)](https://mainecoon.tech/)
+[![Experience](https://img.shields.io/badge/🕹️_Experience-Try_it_live-10B981)](https://mainecoon.tech/experience-platform)
 [![Blog](https://img.shields.io/badge/📝_Blog-mainecoon.tech/blogs-2563EB)](https://mainecoon.tech/blogs)
 [![arXiv](https://img.shields.io/badge/📄_arXiv-2606.17800-b31b1b)](https://arxiv.org/abs/2606.17800)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-catnip--ai--tech-FFD21E)](https://huggingface.co/catnip-ai-tech/MaineCoon)
@@ -10,6 +11,8 @@
 > **MaineCoon** is the first real-time audio-visual autoregressive model, a 22B-parameter generative core that streams synchronized audio and video chunk-by-chunk on a **single GPU**, with sub-second interaction and a record-breaking frame rate of **up to 47.5 FPS**. It is our first step toward **social world models** — generative systems that actively observe users, internally simulate social dynamics, and react to people in real time.
 
 🔗 **Official website & demos:** **[https://mainecoon.tech/](https://mainecoon.tech/)**
+
+🕹️ **Experience platform (try it live):** **[https://mainecoon.tech/experience-platform](https://mainecoon.tech/experience-platform)**
 
 📝 **Blog:** **[https://mainecoon.tech/blogs](https://mainecoon.tech/blogs)**
 
@@ -76,7 +79,7 @@ https://github.com/user-attachments/assets/921aad54-2040-4c4f-8320-20326e40fc68
 </tr>
 </table>
 
-> 🎬 **Minute-scale, long-form demos** are best viewed on our **[blog](https://mainecoon.tech/blogs)**.
+> 🎬 **Minute-scale, long-form demos** are best viewed on our **[blog](https://mainecoon.tech/blogs)**. &nbsp; 🕹️ **Try MaineCoon live** at the **[experience platform](https://mainecoon.tech/experience-platform)**.
 
 ## Benchmark — SocialVideo-Bench
 
@@ -125,6 +128,7 @@ It covers the social-video data infrastructure, the native streaming autoregress
 ## Links
 
 - **Website & live demos:** https://mainecoon.tech/
+- **Experience platform (try it live):** https://mainecoon.tech/experience-platform
 - **Blog:** https://mainecoon.tech/blogs
 - **Hugging Face:** https://huggingface.co/catnip-ai-tech/MaineCoon
 - **Paper (arXiv):** https://arxiv.org/abs/2606.17800
