@@ -155,7 +155,7 @@ If you find MaineCoon useful in your research, please consider citing:
 ```bibtex
 @article{catnip2026mainecoon,
   title        = {MaineCoon: Pursuing A Real-Time Audio-Visual Social World Model},
-  author       = {Catnip AI Team},
+  author       = {Lichen Bai and Tianhao Zhang and Shitong Shao and Dingwei Tan and Qiyu Zhong and Zhengpeng Xie and Haopeng Li and Qinghao Huang and Dandan Shen and Tengjiao Ji and Wei Wang and Peicheng Wu and Yuxuan Zhao and Xiangyu Zhu and Welly Luo and Shurui Yang and Zeke Xie},
   year         = {2026},
   journal      = {arXiv preprint arXiv:2606.17800},
   url          = {https://arxiv.org/abs/2606.17800}
